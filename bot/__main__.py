@@ -255,7 +255,7 @@ async def start(_, message):
                        'Use me at: @Z_Mirror'
     elif not config_dict['DM_MODE'] and message.chat.type != message.chat.type.SUPERGROUP:
         start_string = 'Sorry, you cannot use me here!\n' \
-                       'Join: @Z_Mirror to use me.\n' \
+                       'Join: @public_leech_76 to use me.\n' \
                        'Thank You'
     else:
         tag = message.from_user.mention
